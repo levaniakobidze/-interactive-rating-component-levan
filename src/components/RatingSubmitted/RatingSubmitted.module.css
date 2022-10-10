@@ -1,0 +1,60 @@
+.submitted {
+  width: 412px;
+  height: 416px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 30px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
+}
+.icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.selected_cont {
+  width: 193px;
+  height: 32px;
+  background-color: #262e38;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* identical to box height, or 160% */
+  text-align: center;
+  /* Orange */
+  color: #fc7614;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22.5px;
+}
+
+.thanks {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  color: #ffffff;
+  text-align: center;
+}
+.text {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+  text-align: center;
+  /* Light Grey */
+  color: #969fad;
+}

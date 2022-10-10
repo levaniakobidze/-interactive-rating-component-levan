@@ -1,0 +1,146 @@
+.rating {
+  width: 412px;
+  height: 416px;
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  border-radius: 30px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.star_icon_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.star_icon_cont {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #262e38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 35px;
+  /* Pure White */
+  color: #ffffff;
+}
+.text {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+  /* Light Grey */
+  color: #969fad;
+}
+
+.rating_numbers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.num {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262e38;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+  /* Medium Gray */
+  color: #7c8798;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.num:hover {
+  background-color: #7c8798;
+  color: #fff;
+}
+
+.active_num {
+  background-color: var(--main-orange) !important;
+  color: #fff !important;
+}
+.submit {
+  width: 341px;
+  height: 45px;
+  background-color: #fff;
+  border: 0;
+  outline: 0;
+
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 19px;
+  letter-spacing: 2px;
+  /* Orange */
+  color: #fc7614;
+  border-radius: 22.5px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.submit:hover {
+  background-color: #fc7614;
+  color: #fff;
+}
+
+@media screen and (max-width: 425px) {
+  .rating {
+    width: 370px;
+    height: 456px;
+  }
+  .submit {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 382px) {
+  .rating {
+    width: 330px;
+    height: 456px;
+  }
+  .submit {
+    width: 100%;
+  }
+  .num {
+    width: 45px !important;
+    height: 45px !important;
+  }
+}
+
+@media screen and (max-width: 347px) {
+  .rating {
+    width: 310px;
+    height: 456px;
+  }
+  .submit {
+    width: 100%;
+  }
+  .num {
+    width: 40px !important;
+    height: 40px !important;
+  }
+}
